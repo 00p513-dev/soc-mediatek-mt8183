@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+# Define the package name
+PACKAGE_NAME := soc-mediatek-mt8183
+
+# Main target - build the package
+%:
+	dh $@
+
+# Main target - install the package
+override_dh_auto_install:
+	dh_installdirs
+
+	mkdir -p debian/$(PACKAGE_NAME)/etc/X11/xorg.conf.d/
+	# Copy the ucm2 folder from the source directory to /usr/share/alsa
+	cp -r xorg.conf.d/* debian/$(PACKAGE_NAME)/etc/X11/xorg.conf.d/
+
+# Indicate that these targets are not files
+.PHONY: override_dh_auto_install

@@ -1,0 +1,11 @@
+Source: soc-mediatek-mt8183
+Section: base
+Priority: optional
+Maintainer: Amy King <amy@amyrom.tech>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.4
+Homepage: https://gitlab.com/postmarketOS/pmaports/-/tree/master/device/community/soc-mediatek-mt8183
+
+Package: soc-mediatek-mt8183
+Architecture: any
+Description: Common package for Mediatek MT8183 devices

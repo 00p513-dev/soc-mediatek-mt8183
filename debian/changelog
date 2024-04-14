@@ -1,0 +1,3 @@
+soc-mediatek-mt8183 (2-2) focal; urgency=medium
+  * Initial packaging for Ubuntu
+ -- Amy King <amy@amyrom.tech>  Sun, 14 Apr 2024 08:23:16 +0100

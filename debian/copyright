@@ -1,0 +1,6 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Upstream-Name: soc-mediatek-mt8183
+Source: https://gitlab.com/postmarketOS/pmaports/-/tree/master/device/community/soc-mediatek-mt8183
+Files: *
+Maintainer: Jenneron <jenneron@protonmail.com>
+License: BSD-3-Clause
